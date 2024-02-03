@@ -34,23 +34,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             NekoTheme {
                 App()
-//                Scaffold(
-//                    topBar = {
-//                        TopAppBar(
-//                            colors = TopAppBarDefaults.topAppBarColors(
-//                                containerColor = MaterialTheme.colorScheme.primaryContainer,
-//                                titleContentColor = MaterialTheme.colorScheme.primary,
-//                            ),
-//                            title = {
-//                                Text(text = "Cat App")
-//                            },
-//                        )
-//                    }
-//                ) {
-//                    Box(modifier = Modifier.padding(it)) {
-//                        App()
-//                    }
-//                }
             }
         }
     }
